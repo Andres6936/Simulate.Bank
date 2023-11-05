@@ -3,7 +3,7 @@ import type {DocumentHead} from "@builder.io/qwik-city";
 
 export default component$(() => {
     return (
-        <main class="relative w-screen h-screen flex flex-col gap-4 p-6 main-gradient-background text-black">
+        <section class="relative w-screen h-screen flex flex-col gap-4 p-6 main-gradient-background text-black">
             <nav class="flex flex-row justify-between">
                 <div class="w-[2.5rem] aspect-square bg-white rounded-full">
                     <span></span>
@@ -37,7 +37,7 @@ export default component$(() => {
                 <div class="bubble"></div>
                 <div class="bubble"></div>
             </div>
-        </main>
+        </section>
     );
 });
 
