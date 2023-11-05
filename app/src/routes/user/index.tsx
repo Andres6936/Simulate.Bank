@@ -1,4 +1,8 @@
 import {component$} from "@builder.io/qwik";
+import Arrows from "~/components/icons/arrows";
+import CreditCard from "~/components/icons/credit-card";
+import NutFill from "~/components/icons/nut-fill";
+import Person from "~/components/icons/person";
 
 export default component$(() => {
     return (
@@ -56,8 +60,11 @@ export default component$(() => {
                 </div>
             </section>
 
-            <nav class="absolute bottom-0 left-0 right-0 px-6 pb-6 bg-[#F7F6F1] border-t border-t-[#CCCCCC99]">
-
+            <nav class="absolute bottom-0 left-0 right-0 px-6 py-6 bg-[#F7F6F1] border-t border-t-[#CCCCCC99] flex flex-row justify-around items-center">
+                <NutFill size={24}/>
+                <CreditCard size={24} color="#a1a1aa"/>
+                <Arrows size={24} color="#a1a1aa"/>
+                <Person size={24} color="#a1a1aa"/>
             </nav>
         </section>
     )
