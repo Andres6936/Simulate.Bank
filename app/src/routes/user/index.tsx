@@ -49,7 +49,7 @@ export default component$(() => {
                 </div>
 
                 <div class="flex flex-col pt-6 gap-3 font-sans">
-                    <button class="flex flex-1 bg-white text-black py-3 pl-4 rounded-lg font-semibold shadow-sm">Deposits and Transfers</button>
+                    <button class="flex flex-1 bg-[#D2F14E] text-black py-3 pl-4 rounded-lg font-semibold shadow-sm">Deposits and Transfers</button>
                     <button class="flex flex-1 bg-white text-black py-3 pl-4 rounded-lg font-semibold shadow-sm">Bitcoin</button>
                     <button class="flex flex-1 bg-white text-black py-3 pl-4 rounded-lg font-semibold shadow-sm">Limits</button>
                     <button class="flex flex-1 bg-white text-black py-3 pl-4 rounded-lg font-semibold shadow-sm">Link Bank</button>
