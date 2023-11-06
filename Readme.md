@@ -42,4 +42,5 @@ banking products, giving you the facilities to:
 
 <p align="center">
     <img src="docs/Interface.png" alt="Interface" width="414" />
+    <img src="docs/User.png" alt="Interface" width="414" />
 </p>
